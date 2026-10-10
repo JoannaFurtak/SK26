@@ -8,3 +8,5 @@ git commit -m "comment"
 git push 
 
 and done.
+
+you can use git status to check if there where some changes in repo
