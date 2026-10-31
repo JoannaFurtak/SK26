@@ -29,27 +29,18 @@ I recommend to learn from the official documentation of ROS2 or watch tutorials 
 Go into your scr folder in terminal, then 
 ```markdown
 git add .
-git commit -m "comment"
+git commit -m "[write what you did]"
 git push
 ```
 You can also use git status command to check if there where some changes in repositoty. If there where, a git pull command will update your local copy on your computer.
 
-You have time till 16th of December. Good luck!
-
-
-
-
-
-
-
------------ smth
+## Tips
+To see your robot in Gazebo, open terminal and type:
+```markdown
 export TURTLEBOT3_MODEL=burger
 ros2 launch turtlebot3_gazebo empty_world.launch.py use_sim_time:=true
+```
+I recommend to set the robot in motion, generally experiment with Gazebo (not obligatory to finish the project)
 
-dostaw sobie przedmiot. JESLI DZIALA TO WYLACZ. POTEM WROCIMY.
-
-potem zbuduj rosowe srodowisko w ktorym bedizesz pracowac. 
-
-
-
-potem na githuba
+## Deadline
+You have time till 16th of December. Good luck!
