@@ -26,6 +26,7 @@ Now you are ready to start working on the code.
 I recommend to learn from the official documentation of ROS2 or watch tutorials on youtube. Learn how publishers and subscribers work, and you're good to go! 
 
 ## How to upload your code there?
+Before uploading, please name your script SK26_YourName_YourSurname.
 Go into your scr folder in terminal, then 
 ```markdown
 git add .
