@@ -7,7 +7,7 @@ Control a TurtleBot3 (Burger model) in a ROS2 Jazzy and Gazebo simulation enviro
 You will learn some basics of ROS 2 Jazzy and Gazebo Simulation.
 
 ## Setup your environment
-To start the project you need to install Ubuntu Linux on your computer. There's plenty of tutorials to help you.
+To start the project you need to install Ubuntu Linux (version 24.04) on your computer. There's plenty of tutorials to help you.
 
 Then you need to install ROS 2 Jazzy environment and Gazebo Simulator. Here's a full guide + first program you can run: https://automaticaddison.com/how-to-install-ros-2-jazzy/
 
