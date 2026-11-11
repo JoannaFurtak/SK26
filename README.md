@@ -43,5 +43,12 @@ ros2 launch turtlebot3_gazebo empty_world.launch.py use_sim_time:=true
 ```
 I recommend to set the robot in motion, generally experiment with Gazebo (not obligatory to finish the project)
 
+## ROS Topics
+The project relies on standard ROS 2 message types and interfaces for the TurtleBot3 simulation:
+
+* **/scan** (`sensor_msgs/msg/LaserScan`): Subscribed to receive raw laser distance data from the robot's Lidar for obstacle detection.
+* **/cmd_vel** (`geometry_msgs/msg/Twist`): Published to control linear and angular velocities of the robot.
+* **/obstacle_detected** (`std_msgs/msg/String`): Custom topic used to publish alert notifications when an obstacle is detected within the safety threshold.
+
 ## Deadline
 You have time till 16th of December. Good luck!
