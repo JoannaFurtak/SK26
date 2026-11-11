@@ -22,7 +22,7 @@ sudo apt update
 sudo apt install ros-jazzy-turtlebot3*
 ```
 
-Now you are ready to start working on the code.
+Now you are ready to start working on the code. Use Python for that.
 I recommend to learn from the official documentation of ROS2 or watch tutorials on youtube. Learn how publishers and subscribers work, and you're good to go! 
 
 ## How to upload your code there?
@@ -49,6 +49,10 @@ The project relies on standard ROS 2 message types and interfaces for the Turtle
 * **/scan** (`sensor_msgs/msg/LaserScan`): Subscribed to receive raw laser distance data from the robot's Lidar for obstacle detection.
 * **/cmd_vel** (`geometry_msgs/msg/Twist`): Published to control linear and angular velocities of the robot.
 * **/obstacle_detected** (`std_msgs/msg/String`): Custom topic used to publish alert notifications when an obstacle is detected within the safety threshold.
+
+## ROS2 Jazzy Tutorial:
+https://www.youtube.com/watch?v=DM77KkIJsik&list=PLNWNEEf8BvG64FVZT4IdieI1PuYnHkUrt&index=1 - shows you basics of ROS2 + simulations in Gazebo
+
 
 ## Deadline
 You have time till 16th of December. Good luck!
