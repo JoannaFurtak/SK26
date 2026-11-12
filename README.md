@@ -11,7 +11,7 @@ To start the project you need to install Ubuntu Linux (version 24.04) on your co
 
 Then you need to install ROS 2 Jazzy environment and Gazebo Simulator. Here's a full guide + first program you can run: https://automaticaddison.com/how-to-install-ros-2-jazzy/
 
-After successful installation, you can build your ros2 workspace. This will be your place to store the code. Here's a tutorial: https://industrial-training-master.readthedocs.io/en/foxy/_source/session1/ros2/1-Create-ROS-Workspace.html
+After successful installation, you can build your ros2 workspace and package. This will be your place to store the code. Here's a tutorial: https://automaticaddison.com/how-to-create-a-ros-2-package-jazzy/ (this is also in the tutorial in the ROS2 Jazzy Tutorial section)
 
 Then clone this repository to your src folder. 
 You can do it via https or SSH. The second option is recomended. For that create your SSH key, add it to your GitHub account and use git clone, copy the url for https or SSH.
